@@ -12,9 +12,13 @@ Question 3: Do you see similarities between the Human-Centered Design cycle pres
  Answer: Sometimes, the Design cycle is very confusing and the users don't quite know how to use the program. The best thing to do in these cases would be to try to make the software more user friendly or give more precise commands on how to use the project. Feedback may also be given.
  
  Question 4: What are the simple principles for human-centered design presented in the video? Write a sentence with the definition of each.
-Answer: 1 - Observation : 
+Answer: 1 - Observation
 - Idea generation
 - prototyping
 - Testing
 
 Question 5: Consider your game. Think about ways you can improve the Players’ Experience using Human-centered design. Write below your ideas:
+
+Answer: I was thinking about making the game a multiple choice - it will definitely be easier to counter grammar errors. 
+However, the game will be easier than it was supposed to be as pick and pull will be possible. 
+
