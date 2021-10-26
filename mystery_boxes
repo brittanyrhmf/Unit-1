@@ -1,0 +1,79 @@
+# Mystery_box1 
+
+def mystery_box1(phrase, t):
+    l = []
+    phrase_length = len(phrase)
+    count = 1
+    if t == False:
+        phrase = phrase.lower()
+        for i in range(0, phrase_length):
+            l.append(phrase[phrase_length - count])
+            count += 1
+        l = ''.join(l)
+        return l
+    else:
+        for i in range(0, phrase_length):
+            l.append(phrase[phrase_length - count])
+            count += 1
+        l = ''.join(l)
+        return l
+
+output = mystery_box1("Hello", False)
+print(output)
+
+output = mystery_box1("Hello", True)
+print(output)
+
+# Mystery_box2
+
+def mystery_box2(gmail):
+    dots = 0
+    for char in gmail:
+        if char != '.':
+            dots += 1
+        else:
+            break
+
+    first_name = gmail[0:dots]
+    add = 0
+    for char in gmail:
+        if char != '@':
+            add += 1
+        else:
+            break
+
+    last_name = gmail[dots + 1:add]
+
+    count = 0
+    for char in gmail:
+        if char != ' ':
+            count += 1
+        else:
+            break
+    end = gmail[add+1:count]
+    return (first_name + ' ' + last_name + ',' + end)
+
+output = mystery_box2("john.doe@gmail.com")
+print(output)
+
+output = mystery_box2("brittany.rahamefy@gmail.com")
+print(output)
+
+
+# Mystery_box3
+
+import math
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+def mystery_box3(a,b,c):
+  # math.gcd = find the greatest common divisor
+  lcm = a * b // math.gcd(a, b)
+  lcm = c*lcm // math.gcd(lcm, c)
+  return lcm
+
+print(mystery_box3(a, b, c))
+
+# Mystery_box4
